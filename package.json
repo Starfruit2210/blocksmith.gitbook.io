@@ -2,15 +2,10 @@
   "name": "my-docs",
   "version": "1.0.0",
   "scripts": {
-    "build": "honkit build",
-    "dev": "honkit serve"
+    "build": "node ./node_modules/honkit/cli.js build",
+    "dev": "node ./node_modules/honkit/cli.js serve"
   },
-  "devDependencies": {
-    "honkit": "^4.0.8"
-  },
-  "description": "Gitbook",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "honkit": "^4.0.0"
+  }
 }
