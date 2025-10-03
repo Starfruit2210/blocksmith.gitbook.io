@@ -1,0 +1,11 @@
+{
+  "name": "my-docs",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "honkit build",
+    "dev": "honkit serve"
+  },
+  "devDependencies": {
+    "honkit": "^4.0.0"
+  }
+}
