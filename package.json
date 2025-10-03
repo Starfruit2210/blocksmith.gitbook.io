@@ -2,10 +2,13 @@
   "name": "my-docs",
   "version": "1.0.0",
   "scripts": {
-    "build": "node ./node_modules/honkit/cli.js build",
-    "dev": "node ./node_modules/honkit/cli.js serve"
+    "build": "node ./node_modules/honkit/bin/honkit.js build",
+    "dev": "node ./node_modules/honkit/bin/honkit.js serve"
   },
   "dependencies": {
     "honkit": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
